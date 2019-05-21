@@ -730,14 +730,11 @@ i {
 		letter-spacing: 1px;
 	}
 	.author-img{
-		@include media-breakpoint-down(sm){
-			display: block;
-			height: 400px;
-		}
+		height: 1100px !important;
 	}
-  @media screen and (max-width: 1000px) {
-    .author-img {
-      display: none;
+  @media screen and (max-width: 600px) {
+    .author-img{
+      height: 1500px !important;
     }
   }
 }

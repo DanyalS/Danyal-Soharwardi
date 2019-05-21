@@ -9260,15 +9260,12 @@ header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-bra
   font-weight: 300;
   letter-spacing: 1px;
 }
-@media (max-width: 767.98px) {
-  .about-section .author-img {
-    display: block;
-    height: 400px;
-  }
+.about-section .author-img {
+  height: 1100px !important;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .about-section .author-img {
-    display: none;
+    height: 1500px !important;
   }
 }
 
